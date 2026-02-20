@@ -7,24 +7,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: jiangly/android-action:latest
     
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3
     
-    - name: Set up JDK 11
-      uses: actions/setup-java@v3
-      with:
-        java-version: '11'
-        distribution: 'temurin'
-        
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v2
-      
     - name: Build APK
       run: ./gradlew assembleDebug
       
     - name: Upload APK
       uses: actions/upload-artifact@v3
       with:
-        name: app
+        name: app-debug
         path: app/build/outputs/apk/debug/app-debug.apk
