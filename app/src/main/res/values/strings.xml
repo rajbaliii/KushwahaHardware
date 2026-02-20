@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kushwaha Hardware</string>
+    <string name="shop_name">Kushwaha Hardware</string>
+    <string name="shop_location">Mahanwa, Bihar</string>
+    <string name="currency_symbol">₹</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_purchase">Purchase</string>
+    <string name="nav_sales">Sales</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Dashboard -->
+    <string name="total_products">Total Products</string>
+    <string name="today_sales">Today\'s Sales</string>
+    <string name="total_pending">Total Pending</string>
+    <string name="new_sale">New Sale</string>
+    <string name="add_purchase">Add Purchase</string>
+    <string name="add_product">Add Product</string>
+    <string name="low_stock_alerts">Low Stock Alerts</string>
+    
+    <!-- Inventory -->
+    <string name="search_products">Search products…</string>
+    <string name="filter_by_category">Filter by Category</string>
+    <string name="product_name">Product Name</string>
+    <string name="category">Category</string>
+    <string name="brand">Brand</string>
+    <string name="size">Size</string>
+    <string name="color">Color</string>
+    <string name="unit">Unit</string>
+    <string name="purchase_price">Purchase Price</string>
+    <string name="selling_price">Selling Price</string>
+    <string name="opening_stock">Opening Stock</string>
+    <string name="current_stock">Current Stock</string>
+    <string name="low_stock_limit">Low Stock Alert Limit</string>
+    <string name="barcode">Barcode</string>
+    <string name="save_product">Save Product</string>
+    <string name="stock_history">Stock History</string>
+    
+    <!-- Purchase -->
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone">Phone</string>
+    <string name="supplier_address">Address</string>
+    <string name="total_due">Total Due</string>
+    <string name="add_supplier">Add Supplier</string>
+    <string name="invoice_number">Invoice Number</string>
+    <string name="date">Date</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="pending_amount">Pending Amount</string>
+    <string name="add_product_to_purchase">Add Product</string>
+    <string name="quantity">Quantity</string>
+    <string name="save_purchase">Save Purchase</string>
+    <string name="purchase_history">Purchase History</string>
+    <string name="mark_payment">Mark Payment</string>
+    
+    <!-- Sales -->
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_phone">Customer Phone</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="cash">Cash</string>
+    <string name="credit">Credit</string>
+    <string name="create_invoice">Create Invoice</string>
+    <string name="invoice_list">Invoice List</string>
+    <string name="print_share">Print / Share</string>
+    <string name="add_item">Add Item</string>
+    <string name="rate">Rate</string>
+    <string name="amount">Amount</string>
+    
+    <!-- Reports -->
+    <string name="daily_report">Daily Report</string>
+    <string name="weekly_report">Weekly Report</string>
+    <string name="monthly_report">Monthly Report</string>
+    <string name="sales_report">Sales Report</string>
+    <string name="profit_report">Profit Report</string>
+    <string name="stock_report">Stock Report</string>
+    <string name="supplier_pending">Supplier Pending</string>
+    <string name="customer_pending">Customer Pending</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="generate_report">Generate Report</string>
+    
+    <!-- Settings -->
+    <string name="shop_info">Shop Information</string>
+    <string name="export_data">Export Data</string>
+    <string name="export_excel">Export to Excel</string>
+    <string name="export_pdf">Export to PDF</string>
+    <string name="cloud_backup">Cloud Backup</string>
+    <string name="backup_to_drive">Backup to Google Drive</string>
+    <string name="restore_from_drive">Restore from Google Drive</string>
+    <string name="biometric_lock">Biometric Lock</string>
+    <string name="enable_biometric">Enable Biometric Authentication</string>
+    <string name="manage_categories">Manage Categories</string>
+    
+    <!-- Invoice -->
+    <string name="invoice_title">KUSHWAHA HARDWARE</string>
+    <string name="invoice_subtitle">Mahanwa, Bihar</string>
+    <string name="invoice_no_label">Invoice No:</string>
+    <string name="date_label">Date:</string>
+    <string name="customer_label">Customer:</string>
+    <string name="phone_label">Phone:</string>
+    <string name="item_label">Item</string>
+    <string name="qty_label">Qty</string>
+    <string name="rate_label">Rate</string>
+    <string name="amount_label">Amount</string>
+    <string name="total_label">Total:</string>
+    <string name="paid_label">Paid:</string>
+    <string name="pending_label">Pending:</string>
+    <string name="thank_you">Thank you for your purchase!</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="all">All</string>
+    <string name="no_data_found">No data found</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="confirm">Confirm</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="biometric_prompt_title">Kushwaha Hardware</string>
+    <string name="biometric_prompt_subtitle">Verify your identity</string>
+    <string name="biometric_prompt_description">Use your fingerprint or PIN to access the app</string>
+    <string name="use_pin">Use PIN</string>
+</resources>
