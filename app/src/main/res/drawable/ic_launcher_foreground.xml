@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Stylized Gear -->
+    <path
+        android:pathData="M54,32l5,-5h10l5,5v10l-5,5l5,5l-8,8l-5,-5l-5,5v10l-5,5h-10l-5,-5v-10l5,-5l-5,-5l8,-8l5,5l5,-5V32z"
+        android:fillColor="#37474F"/>
+    
+    <!-- Central Wrench Icon -->
+    <path
+        android:pathData="M54,38m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#F57C00"/>
+    
+    <!-- Wrench Opening -->
+    <path
+        android:pathData="M54,28l8,8l-16,0z"
+        android:fillColor="#263238"/>
+        
+    <!-- Wrench Handle -->
+    <path
+        android:pathData="M50,48h8v30h-8z"
+        android:fillColor="#F57C00"/>
+        
+    <!-- Accent Line -->
+    <path
+        android:pathData="M54,54m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"
+        android:fillColor="#FFFFFF"/>
+</vector>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Circular background -->
+    <path android:fillColor="#1E88E5"
+        android:pathData="M24,0C10.7,0 0,10.7 0,24s10.7,24 24,24s24,-10.7 24,-24S37.3,0 24,0z"/>
+    
+    <!-- Inner circle -->
+    <path android:fillColor="#1565C0"
+        android:pathData="M24,4C12.9,4 4,12.9 4,24s8.9,20 20,20s20,-8.9 20,-20S35.1,4 24,4z"/>
+    
+    <!-- Shelves -->
+    <path android:fillColor="#8D6E63"
+        android:pathData="M10,16h28v2h-28z"/>
+    <path android:fillColor="#8D6E63"
+        android:pathData="M10,28h28v2h-28z"/>
+    
+    <!-- Paint can -->
+    <path android:fillColor="#F44336"
+        android:pathData="M12,8h6v6h-6z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M13,10h4v2h-4z"/>
+    
+    <!-- Saw blade center -->
+    <path android:fillColor="#757575"
+        android:pathData="M24,12l4,4l-4,4l-4,-4z"/>
+    <path android:fillColor="#212121"
+        android:pathData="M22,14h4v4h-4z"/>
+    
+    <!-- Tools -->
+    <path android:fillColor="#FF9800"
+        android:pathData="M32,8h1v6h-1z"/>
+    
+    <!-- KH text -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M16,33h2v4h-1v-2h-1v2h-1z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M20,33h1v1h1v-1h1v4h-1v-1h-1v1h-1z"/>
+</vector>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Circular background - Hardware store blue -->
+    <path android:fillColor="#1E88E5"
+        android:pathData="M54,0C24.3,0 0,24.3 0,54s24.3,54 54,54s54,-24.3 54,-54S83.7,0 54,0z"/>
+    
+    <!-- Inner circle -->
+    <path android:fillColor="#1565C0"
+        android:pathData="M54,8C29.7,8 10,27.7 10,52s19.7,44 44,44s44,-19.7 44,-44S78.3,8 54,8z"/>
+    
+    <!-- Shelf representation -->
+    <path android:fillColor="#8D6E63"
+        android:pathData="M20,35h68v6h-68z"/>
+    <path android:fillColor="#8D6E63"
+        android:pathData="M20,65h68v6h-68z"/>
+    
+    <!-- Paint can -->
+    <path android:fillColor="#F44336"
+        android:pathData="M25,20h12v12h-12z"/>
+    <path android:fillColor="#D32F2F"
+        android:pathData="M25,20h12v2h-12z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M27,24h8v6h-8z"/>
+    
+    <!-- Saw blade center -->
+    <path android:fillColor="#757575"
+        android:pathData="M54,28l10,10l-10,10l-10,-10z"/>
+    <path android:fillColor="#424242"
+        android:pathData="M54,31l7,7l-7,7l-7,-7z"/>
+    <path android:fillColor="#212121"
+        android:pathData="M51,36h6v6h-6z"/>
+    
+    <!-- Tools -->
+    <path android:fillColor="#FF9800"
+        android:pathData="M70,20h2v15h-2z"/>
+    <path android:fillColor="#F57C00"
+        android:pathData="M68,20h6v2h-6z"/>
+    
+    <!-- "KH" text -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M35,75h4v8h-2v-6h-2v6h-2z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M43,75h2v3h3v-3h2v8h-2v-3h-3v3h-2z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M53,75h4v8h-2v-6h-2v6h-2z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M61,75h2v3h3v-3h2v8h-2v-3h-3v3h-2z"/>
+</vector>

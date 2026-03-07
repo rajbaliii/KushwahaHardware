@@ -1,0 +1,127 @@
+﻿
+  > Task 
+:app:writeDebugAppMetadata 
+UP-TO-DATE
+  > Task :app:writeDebugSig
+ningConfigVersions 
+UP-TO-DATE
+> > Task :app:mergeDebugJav
+aResource FAILED
+  
+> > Task :app:compileDebugU
+nitTestKotlin FAILED
+  e: file:///D:/KushwahaHar
+dware/app/src/test/java/com
+/kushwahahardware/data/repo
+sitory/SaleRepositoryTest.k
+t:42:64 No value passed 
+for parameter 'saleId'.
+  e: file:///D:/KushwahaHar
+dware/app/src/test/java/com
+/kushwahahardware/data/repo
+sitory/SaleRepositoryTest.k
+t:42:64 No value passed 
+for parameter 'totalPrice'.
+  e: file:///D:/KushwahaHar
+dware/app/src/test/java/com
+/kushwahahardware/data/repo
+sitory/SaleRepositoryTest.k
+t:53:21 Suspension 
+functions can only be 
+called within coroutine 
+body.
+> System.Management.Automat
+ion.RemoteException
+  FAILURE: Build completed 
+with 2 failures.
+> System.Management.Automat
+ion.RemoteException
+> 1: Task failed with an 
+exception.
+  -----------
+  * What went wrong:
+> Execution failed for 
+task ':app:mergeDebugJavaRe
+source'.
+  > A failure occurred 
+while executing com.android
+.build.gradle.internal.task
+s.MergeJavaResWorkAction
+     > 2 files found with 
+path 'META-INF/LICENSE.md' 
+from inputs:
+        - C:\Users\Kumar\.g
+radle\caches\8.8\transforms
+\288a0a49f2a4363806888405c3
+98c361\transformed\jetified
+-jakarta.mail-2.0.1.jar
+        - C:\Users\Kumar\.g
+radle\caches\8.8\transforms
+\2b9aefdb50f5edcab788730c33
+a04089\transformed\jetified
+-jakarta.activation-2.0.1.j
+ar
+       Adding a packaging 
+block may help, please 
+refer to
+       https://developer.an
+droid.com/reference/tools/g
+radle-api/8.6/com/android/b
+uild/api/dsl/Packaging
+       for more information
+> System.Management.Automat
+ion.RemoteException
+  * Try:
+  > Run with --stacktrace 
+option to get the stack 
+trace.
+  > Run with --info or 
+--debug option to get more 
+log output.
+  > Run with --scan to get 
+full insights.
+  > Get more help at 
+https://help.gradle.org.
+  =========================
+===========================
+==========================
+> System.Management.Automat
+ion.RemoteException
+> 2: Task failed with an 
+exception.
+  -----------
+  * What went wrong:
+> Execution failed for 
+task ':app:compileDebugUnit
+TestKotlin'.
+  > A failure occurred 
+while executing org.jetbrai
+ns.kotlin.compilerRunner.Gr
+adleCompilerRunnerWithWorke
+rs$GradleKotlinCompilerWork
+Action
+     > Compilation error. 
+See log for more details
+> System.Management.Automat
+ion.RemoteException
+  * Try:
+  > Run with --stacktrace 
+option to get the stack 
+trace.
+  > Run with --info or 
+--debug option to get more 
+log output.
+  > Run with --scan to get 
+full insights.
+  > Get more help at 
+https://help.gradle.org.
+  =========================
+===========================
+==========================
+> System.Management.Automat
+ion.RemoteException
+> BUILD FAILED in 58s
+  48 actionable tasks: 5 
+executed, 43 up-to-date
+
+

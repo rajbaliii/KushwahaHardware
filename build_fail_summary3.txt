@@ -1,0 +1,11 @@
+﻿
+  > Task 
+:app:testDebugUnitTest
+  
+> BUILD SUCCESSFUL in 
+54s
+  54 actionable tasks: 
+4 executed, 50 
+up-to-date
+
+

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kushwaha Hardware</string>
+    <string name="summary">Summary</string>
+    <string name="total_products">Total Products</string>
+    <string name="today_sales">Today\'s Sales</string>
+    <string name="pending_amount">Pending Amount</string>
+    <string name="low_stock">Low Stock</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="new_sale">New Sale</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_purchase">Add Purchase</string>
+    <string name="sales_trends">Sales Trends</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="select_product">Select Product</string>
+    <string name="cancel">Cancel</string>
+    <string name="customer">Customer</string>
+    <string name="walking_customer">Walking Customer</string>
+    <string name="cart_items">Cart Items</string>
+    <string name="add_item">Add Item</string>
+    <string name="complete_sale">Complete Sale &amp; Generate Invoice</string>
+    <string name="scan_product">Scan Product Barcode</string>
+    <string name="inventory">Inventory</string>
+    <string name="search_products">Search products...</string>
+    <string name="all">All</string>
+    <string name="stock">Stock</string>
+    <string name="unknown">Unknown</string>
+    <string name="low_stock_alert">Low Stock Alert</string>
+    <string name="low_stock_msg">%d products are below minimum stock level.</string>
+</resources>

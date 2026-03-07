@@ -1,0 +1,52 @@
+﻿
+  > Task 
+:app:testDebugUnitTest
+  
+> 
+BarcodeRepositoryTest 
+> 
+generateUniqueBarcodes 
+should follow the 
+correct format FAILED
+      java.lang.Asserti
+onError at BarcodeRepos
+itoryTest.kt:41
+  System.Management.Aut
+omation.RemoteException
+> 6 tests completed, 1 
+failed
+  
+> > Task 
+:app:testDebugUnitTest 
+FAILED
+  System.Management.Aut
+omation.RemoteException
+> FAILURE: Build 
+failed with an 
+exception.
+  System.Management.Aut
+omation.RemoteException
+  * What went wrong:
+> Execution failed for 
+task ':app:testDebugUni
+tTest'.
+  > There were failing 
+tests. See the report 
+at: file:///D:/Kushwaha
+Hardware/app/build/repo
+rts/tests/testDebugUnit
+Test/index.html
+  System.Management.Aut
+omation.RemoteException
+  * Try:
+  > Run with --scan to 
+get full insights.
+  System.Management.Aut
+omation.RemoteException
+> BUILD FAILED in 1m 
+30s
+  54 actionable tasks: 
+10 executed, 44 
+up-to-date
+
+

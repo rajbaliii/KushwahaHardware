@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background -->
+    <path android:fillColor="#1E88E5"
+        android:pathData="M0,0h48v48h-48z"/>
+    
+    <!-- Shelves -->
+    <path android:fillColor="#8D6E63"
+        android:pathData="M4,18h40v3h-40z"/>
+    <path android:fillColor="#8D6E63"
+        android:pathData="M4,31h40v3h-40z"/>
+    
+    <!-- Paint can -->
+    <path android:fillColor="#F44336"
+        android:pathData="M8,8h7v7h-7z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M9,10h5v3h-5z"/>
+    
+    <!-- Saw blade center -->
+    <path android:fillColor="#757575"
+        android:pathData="M22,11l5,5l-5,5l-5,-5z"/>
+    <path android:fillColor="#212121"
+        android:pathData="M20,14h4v4h-4z"/>
+    
+    <!-- Tools -->
+    <path android:fillColor="#FF9800"
+        android:pathData="M33,8h2v7h-2z"/>
+    
+    <!-- KH text -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M12,37h3v6h-1v-4h-2v4h-1z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M18,37h1v2h2v-2h1v6h-1v-2h-2v2h-1z"/>
+</vector>

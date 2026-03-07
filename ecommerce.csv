@@ -1,0 +1,16 @@
+order_id,customer_name,product_name,category,quantity,unit_price,order_date,region,status,total_price
+1,John Smith,Laptop,Electronics,1,899,2024-01-15,North,Delivered,899
+2,Sarah Johnson,Phone,Electronics,2,699,2024-01-16,South,Delivered,1398
+3,Mike Brown,Tablet,Electronics,1,499,2024-01-17,East,Shipped,499
+4,Emily Davis,Headphones,Accessories,3,149,2024-01-18,West,Delivered,447
+5,David Wilson,Mouse,Accessories,2,29,2024-01-19,North,Processing,58
+6,Lisa Anderson,Keyboard,Accessories,1,79,2024-01-20,South,Delivered,79
+7,James Taylor,Monitor,Electronics,1,399,2024-01-21,East,Delivered,399
+8,Maria Garcia,Camera,Electronics,1,1299,2024-01-22,West,Shipped,1299
+9,Robert Martinez,Laptop,Electronics,2,899,2024-01-23,North,Delivered,1798
+10,Jennifer Rodriguez,Phone,Electronics,1,699,2024-01-24,South,Cancelled,699
+11,William Lee,Tablet,Electronics,1,499,2024-01-25,East,Delivered,499
+12,Jessica White,Headphones,Accessories,4,149,2024-01-26,West,Delivered,596
+13,Thomas Harris,Keyboard,Accessories,1,79,2024-01-27,North,Processing,79
+14,Ashley Clark,Monitor,Electronics,2,399,2024-01-28,South,Delivered,798
+15,Daniel Lewis,Mouse,Accessories,5,29,2024-01-29,East,Delivered,145

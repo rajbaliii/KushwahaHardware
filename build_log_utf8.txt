@@ -1,0 +1,838 @@
+﻿> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :app:kaptDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+./gradlew : e: file:///X:/KushwahaHardware/ap
+p/src/main/java/com/kushwahahardware/Kushwaha
+HardwareApp.kt:7:7 Redeclaration:
+At line:1 char:1
++ ./gradlew assembleDebug --stacktrace > 
+build_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified:  
+   (e: file:///X:/K... Redeclaration::Strin  
+  g) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandE 
+   rror
+ 
+class KushwahaHardwareApp : Application
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/database/AppDat
+abase.kt:11:2 Unresolved reference 
+'Database'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/database/AppDat
+abase.kt:27:16 Redeclaration:
+class AppDatabase : RoomDatabase
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Comm
+onRepository.kt:40:66 Unresolved reference 
+'insertOrUpdate'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Comm
+onRepository.kt:43:74 Unresolved reference 
+'getAllHistory'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Comm
+onRepository.kt:44:77 Unresolved reference 
+'insertHistory'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Purc
+haseRepository.kt:17:86 Unresolved reference 
+'getItemsForPurchase'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Purc
+haseRepository.kt:22:21 Unresolved reference 
+'insertPurchaseItems'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Sale
+Repository.kt:18:70 Unresolved reference 
+'getItemsForSale'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Sale
+Repository.kt:23:17 Unresolved reference 
+'insertSaleItems'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Sale
+Repository.kt:27:73 Unresolved reference 
+'getTodaySalesAmount'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/data/repository/Sale
+Repository.kt:28:59 Unresolved reference 
+'getTotalPendingAmount'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/di/AppModule.kt:25:2
+3 Argument type mismatch: actual type is 
+'com.kushwahahardware.di.<anonymous>', but 
+'androidx.room.RoomDatabase.Callback' was 
+expected.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/di/AppModule.kt:25:3
+2 Unresolved reference 'RoomDatabase'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/di/AppModule.kt:26:1
+3 'onCreate' overrides nothing.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/di/AppModule.kt:26:3
+9 Unresolved reference 
+'SupportSQLiteDatabase'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/di/AppModule.kt:27:1
+7 Unresolved reference 
+'RoomDatabase.Callback'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/di/AppModule.kt:27:2
+3 Unresolved reference 'onCreate'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/navigation/Screen.kt
+:8:71 Unresolved reference 'Dashboard'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/navigation/Screen.kt
+:9:71 Unresolved reference 'Inventory'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/navigation/Screen.kt
+:11:68 Unresolved reference 'LocalShipping'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/navigation/Screen.kt
+:12:65 Unresolved reference 'BarChart'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/components/Common
+Components.kt:5:42 Unresolved reference 
+'RoundedCornerSet'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/AddEditPr
+oductScreen.kt:9:47 Unresolved reference 
+'Save'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/AddEditPr
+oductScreen.kt:80:44 Unresolved reference 
+'Save'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/Dashboard
+Screen.kt:53:46 Unresolved reference 
+'Inventory2'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/Dashboard
+Screen.kt:58:46 Unresolved reference 
+'TrendingUp'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/Dashboard
+Screen.kt:67:46 Unresolved reference 
+'AccountBalanceWallet'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/Dashboard
+Screen.kt:92:46 Unresolved reference 
+'AddShoppingCart'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/Dashboard
+Screen.kt:106:42 Unresolved reference 
+'LibraryAdd'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/Dashboard
+Screen.kt:145:34 Unresolved reference 
+'FontWeight'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/NewSaleSc
+reen.kt:172:45 Unresolved reference 
+'clickable'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/PurchaseS
+creen.kt:9:47 Unresolved reference 
+'LocalShipping'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/PurchaseS
+creen.kt:73:32 Unresolved reference 
+'LocalShipping'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SaleDetai
+lScreen.kt:61:38 Unresolved reference 'name'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SaleDetai
+lScreen.kt:99:42 Unresolved reference 
+'productName'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SaleDetai
+lScreen.kt:100:48 Unresolved reference 
+'totalAmount'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SalesScre
+en.kt:9:47 Unresolved reference 'Receipt'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SalesScre
+en.kt:73:32 Unresolved reference 'Receipt'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SettingsS
+creen.kt:6:47 Unresolved reference 'Save'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SettingsS
+creen.kt:27:27 Unresolved reference 'name'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/screens/SettingsS
+creen.kt:66:36 Unresolved reference 'Save'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/viewmodel/NewSale
+ViewModel.kt:105:21 No parameter with name 
+'productName' found.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/viewmodel/NewSale
+ViewModel.kt:107:21 No parameter with name 
+'rate' found.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/viewmodel/NewSale
+ViewModel.kt:108:21 No parameter with name 
+'totalAmount' found.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/viewmodel/NewSale
+ViewModel.kt:108:21 No value passed for 
+parameter 'unitPrice'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/viewmodel/NewSale
+ViewModel.kt:108:21 No value passed for 
+parameter 'totalPrice'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/ui/viewmodel/Setting
+sViewModel.kt:26:17 No parameter with name 
+'name' found.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/utils/ExcelExporter.
+kt:6:23 Unresolved reference 'xssf'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/utils/ExcelExporter.
+kt:13:24 Unresolved reference 'XSSFWorkbook'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/utils/PdfGenerator.k
+t:34:46 Unresolved reference 'name'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/utils/PdfGenerator.k
+t:66:36 Unresolved reference 'productName'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/utils/PdfGenerator.k
+t:68:45 Unresolved reference 'rate'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahahardware/utils/PdfGenerator.k
+t:69:45 Unresolved reference 'totalAmount'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahardware/KushwahaHardwareApp.kt
+:7:7 Redeclaration:
+class KushwahaHardwareApp : Application
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahardware/data/database/AppDatab
+ase.kt:28:16 Redeclaration:
+class AppDatabase : RoomDatabase
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahardware/data/database/AppDatab
+ase.kt:43:20 Unresolved reference 'INSTANCE'.
+e: file:///X:/KushwahaHardware/app/src/main/j
+ava/com/kushwahardware/data/database/AppDatab
+ase.kt:51:17 Unresolved reference 'INSTANCE'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetb
+rains.kotlin.compilerRunner.GradleCompilerRun
+nerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more 
+details
+
+* Try:
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: 
+Execution failed for task 
+':app:compileDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.E
+xecuteActionsTaskExecuter.lambda$executeIfVal
+id$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccess
+fulOrElse(Try.java:282)
+	at org.gradle.api.internal.tasks.execution.E
+xecuteActionsTaskExecuter.executeIfValid(Exec
+uteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.E
+xecuteActionsTaskExecuter.execute(ExecuteActi
+onsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.F
+inalizePropertiesTaskExecuter.execute(Finaliz
+ePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.R
+esolveTaskExecutionModeExecuter.execute(Resol
+veTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.S
+kipTaskWithNoActionsExecuter.execute(SkipTask
+WithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.S
+kipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskE
+xecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.C
+atchExceptionTaskExecuter.execute(CatchExcept
+ionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter$1.executeTask(EventFir
+ingTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter$1.call(EventFiringTask
+Executer.java:55)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter$1.call(EventFiringTask
+Executer.java:52)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+9)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+4)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:66)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:166)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.call(DefaultBuildOperationR
+unner.java:53)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter.execute(EventFiringTas
+kExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeEx
+ecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$InvokeNodeExecutorsAction.exe
+cute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$InvokeNodeExecutorsAction.exe
+cute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$BuildOperationAwareExecutionA
+ction.lambda$execute$0(DefaultTaskExecutionGr
+aph.java:314)
+	at org.gradle.internal.operations.CurrentBui
+ldOperationRef.with(CurrentBuildOperationRef.
+java:80)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$BuildOperationAwareExecutionA
+ction.execute(DefaultTaskExecutionGraph.java:
+314)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$BuildOperationAwareExecutionA
+ction.execute(DefaultTaskExecutionGraph.java:
+303)
+	at org.gradle.execution.plan.DefaultPlanExec
+utor$ExecutorWorker.execute(DefaultPlanExecut
+or.java:463)
+	at org.gradle.execution.plan.DefaultPlanExec
+utor$ExecutorWorker.run(DefaultPlanExecutor.j
+ava:380)
+	at org.gradle.internal.concurrent.ExecutorPo
+licy$CatchAndRecordFailures.onExecute(Executo
+rPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractMa
+nagedExecutor$1.run(AbstractManagedExecutor.j
+ava:47)
+Caused by: org.gradle.workers.internal.Defaul
+tWorkerExecutor$WorkExecutionException: A 
+failure occurred while executing org.jetbrain
+s.kotlin.compilerRunner.GradleCompilerRunnerW
+ithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorker
+Executor$WorkItemExecution.waitForCompletion(
+DefaultWorkerExecutor.java:287)
+	at org.gradle.internal.work.DefaultAsyncWork
+Tracker.lambda$waitForItemsAndGatherFailures$
+2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Fa
+ctories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLea
+seService.withoutLocks(DefaultWorkerLeaseServ
+ice.java:336)
+	at org.gradle.internal.work.DefaultWorkerLea
+seService.withoutLocks(DefaultWorkerLeaseServ
+ice.java:319)
+	at org.gradle.internal.work.DefaultWorkerLea
+seService.withoutLock(DefaultWorkerLeaseServi
+ce.java:324)
+	at org.gradle.internal.work.DefaultAsyncWork
+Tracker.waitForItemsAndGatherFailures(Default
+AsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWork
+Tracker.waitForItemsAndGatherFailures(Default
+AsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWork
+Tracker.waitForAll(DefaultAsyncWorkTracker.ja
+va:78)
+	at org.gradle.internal.work.DefaultAsyncWork
+Tracker.waitForCompletion(DefaultAsyncWorkTra
+cker.java:66)
+	at org.gradle.api.internal.tasks.execution.T
+askExecution$3.run(TaskExecution.java:252)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$1.execute(DefaultBuildOpera
+tionRunner.java:29)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$1.execute(DefaultBuildOpera
+tionRunner.java:26)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:66)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:166)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.run(DefaultBuildOperationRu
+nner.java:47)
+	at org.gradle.api.internal.tasks.execution.T
+askExecution.executeAction(TaskExecution.java
+:229)
+	at org.gradle.api.internal.tasks.execution.T
+askExecution.executeActions(TaskExecution.jav
+a:212)
+	at org.gradle.api.internal.tasks.execution.T
+askExecution.executeWithPreviousOutputFiles(T
+askExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.T
+askExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.Execu
+teStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.Execu
+teStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.Execu
+teStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.Execu
+teStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+9)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+4)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:66)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:166)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.call(DefaultBuildOperationR
+unner.java:53)
+	at org.gradle.internal.execution.steps.Execu
+teStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.Execu
+teStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.Cance
+lExecutionStep.execute(CancelExecutionStep.ja
+va:41)
+	at org.gradle.internal.execution.steps.Timeo
+utStep.executeWithoutTimeout(TimeoutStep.java
+:74)
+	at org.gradle.internal.execution.steps.Timeo
+utStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCr
+eateOutputParentsStep.execute(PreCreateOutput
+ParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCr
+eateOutputParentsStep.execute(PreCreateOutput
+ParentsStep.java:28)
+	at org.gradle.internal.execution.steps.Remov
+ePreviousOutputsStep.execute(RemovePreviousOu
+tputsStep.java:67)
+	at org.gradle.internal.execution.steps.Remov
+ePreviousOutputsStep.execute(RemovePreviousOu
+tputsStep.java:37)
+	at org.gradle.internal.execution.steps.Broad
+castChangingOutputsStep.execute(BroadcastChan
+gingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.Broad
+castChangingOutputsStep.execute(BroadcastChan
+gingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.Captu
+reOutputsAfterExecutionStep.execute(CaptureOu
+tputsAfterExecutionStep.java:67)
+	at org.gradle.internal.execution.steps.Captu
+reOutputsAfterExecutionStep.execute(CaptureOu
+tputsAfterExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.Resol
+veInputChangesStep.execute(ResolveInputChange
+sStep.java:40)
+	at org.gradle.internal.execution.steps.Resol
+veInputChangesStep.execute(ResolveInputChange
+sStep.java:29)
+	at org.gradle.internal.execution.steps.Build
+CacheStep.executeWithoutCache(BuildCacheStep.
+java:189)
+	at org.gradle.internal.execution.steps.Build
+CacheStep.lambda$execute$1(BuildCacheStep.jav
+a:75)
+	at org.gradle.internal.Either$Right.fold(Eit
+her.java:175)
+	at org.gradle.internal.execution.caching.Cac
+hingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.Build
+CacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.Build
+CacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.Store
+ExecutionStateStep.execute(StoreExecutionStat
+eStep.java:46)
+	at org.gradle.internal.execution.steps.Store
+ExecutionStateStep.execute(StoreExecutionStat
+eStep.java:35)
+	at org.gradle.internal.execution.steps.SkipU
+pToDateStep.executeBecause(SkipUpToDateStep.j
+ava:76)
+	at org.gradle.internal.execution.steps.SkipU
+pToDateStep.lambda$execute$2(SkipUpToDateStep
+.java:54)
+	at org.gradle.internal.execution.steps.SkipU
+pToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipU
+pToDateStep.execute(SkipUpToDateStep.java:36)
+	at org.gradle.internal.execution.steps.legac
+y.MarkSnapshottingInputsFinishedStep.execute(
+MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legac
+y.MarkSnapshottingInputsFinishedStep.execute(
+MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.Resol
+veIncrementalCachingStateStep.executeDelegate
+(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.Resol
+veIncrementalCachingStateStep.executeDelegate
+(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.Abstr
+actResolveCachingStateStep.execute(AbstractRe
+solveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.Abstr
+actResolveCachingStateStep.execute(AbstractRe
+solveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.Resol
+veChangesStep.execute(ResolveChangesStep.java
+:65)
+	at org.gradle.internal.execution.steps.Resol
+veChangesStep.execute(ResolveChangesStep.java
+:36)
+	at org.gradle.internal.execution.steps.Valid
+ateStep.execute(ValidateStep.java:106)
+	at org.gradle.internal.execution.steps.Valid
+ateStep.execute(ValidateStep.java:55)
+	at org.gradle.internal.execution.steps.Abstr
+actCaptureStateBeforeExecutionStep.execute(Ab
+stractCaptureStateBeforeExecutionStep.java:64
+)
+	at org.gradle.internal.execution.steps.Abstr
+actCaptureStateBeforeExecutionStep.execute(Ab
+stractCaptureStateBeforeExecutionStep.java:43
+)
+	at org.gradle.internal.execution.steps.Abstr
+actSkipEmptyWorkStep.executeWithNonEmptySourc
+es(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.Abstr
+actSkipEmptyWorkStep.execute(AbstractSkipEmpt
+yWorkStep.java:61)
+	at org.gradle.internal.execution.steps.Abstr
+actSkipEmptyWorkStep.execute(AbstractSkipEmpt
+yWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legac
+y.MarkSnapshottingInputsStartedStep.execute(M
+arkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadP
+reviousExecutionStateStep.execute(LoadPreviou
+sExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadP
+reviousExecutionStateStep.execute(LoadPreviou
+sExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.Handl
+eStaleOutputsStep.execute(HandleStaleOutputsS
+tep.java:75)
+	at org.gradle.internal.execution.steps.Handl
+eStaleOutputsStep.execute(HandleStaleOutputsS
+tep.java:41)
+	at org.gradle.internal.execution.steps.Assig
+nMutableWorkspaceStep.lambda$execute$0(Assign
+MutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.T
+askExecution$4.withWorkspace(TaskExecution.ja
+va:289)
+	at org.gradle.internal.execution.steps.Assig
+nMutableWorkspaceStep.execute(AssignMutableWo
+rkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.Assig
+nMutableWorkspaceStep.execute(AssignMutableWo
+rkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.Choos
+ePipelineStep.execute(ChoosePipelineStep.java
+:40)
+	at org.gradle.internal.execution.steps.Choos
+ePipelineStep.execute(ChoosePipelineStep.java
+:23)
+	at org.gradle.internal.execution.steps.Execu
+teWorkBuildOperationFiringStep.lambda$execute
+$2(ExecuteWorkBuildOperationFiringStep.java:6
+7)
+	at org.gradle.internal.execution.steps.Execu
+teWorkBuildOperationFiringStep.execute(Execut
+eWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.Execu
+teWorkBuildOperationFiringStep.execute(Execut
+eWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.Ident
+ityCacheStep.execute(IdentityCacheStep.java:4
+6)
+	at org.gradle.internal.execution.steps.Ident
+ityCacheStep.execute(IdentityCacheStep.java:3
+4)
+	at org.gradle.internal.execution.steps.Ident
+ifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.Ident
+ifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.Defaul
+tExecutionEngine$1.execute(DefaultExecutionEn
+gine.java:61)
+	at org.gradle.api.internal.tasks.execution.E
+xecuteActionsTaskExecuter.executeIfValid(Exec
+uteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.E
+xecuteActionsTaskExecuter.execute(ExecuteActi
+onsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.F
+inalizePropertiesTaskExecuter.execute(Finaliz
+ePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.R
+esolveTaskExecutionModeExecuter.execute(Resol
+veTaskExecutionModeExecuter.java:51)
+30 actionable tasks: 1 executed, 29 up-to-date
+	at org.gradle.api.internal.tasks.execution.S
+kipTaskWithNoActionsExecuter.execute(SkipTask
+WithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.S
+kipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskE
+xecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.C
+atchExceptionTaskExecuter.execute(CatchExcept
+ionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter$1.executeTask(EventFir
+ingTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter$1.call(EventFiringTask
+Executer.java:55)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter$1.call(EventFiringTask
+Executer.java:52)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+9)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+4)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:66)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:166)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.call(DefaultBuildOperationR
+unner.java:53)
+	at org.gradle.api.internal.tasks.execution.E
+ventFiringTaskExecuter.execute(EventFiringTas
+kExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeEx
+ecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$InvokeNodeExecutorsAction.exe
+cute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$InvokeNodeExecutorsAction.exe
+cute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$BuildOperationAwareExecutionA
+ction.lambda$execute$0(DefaultTaskExecutionGr
+aph.java:314)
+	at org.gradle.internal.operations.CurrentBui
+ldOperationRef.with(CurrentBuildOperationRef.
+java:80)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$BuildOperationAwareExecutionA
+ction.execute(DefaultTaskExecutionGraph.java:
+314)
+	at org.gradle.execution.taskgraph.DefaultTas
+kExecutionGraph$BuildOperationAwareExecutionA
+ction.execute(DefaultTaskExecutionGraph.java:
+303)
+	at org.gradle.execution.plan.DefaultPlanExec
+utor$ExecutorWorker.execute(DefaultPlanExecut
+or.java:463)
+	at org.gradle.execution.plan.DefaultPlanExec
+utor$ExecutorWorker.run(DefaultPlanExecutor.j
+ava:380)
+	at org.gradle.internal.concurrent.ExecutorPo
+licy$CatchAndRecordFailures.onExecute(Executo
+rPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractMa
+nagedExecutor$1.run(AbstractManagedExecutor.j
+ava:47)
+Caused by: org.jetbrains.kotlin.gradle.tasks.
+CompilationErrorException: Compilation 
+error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUt
+ilsKt.throwExceptionIfCompilationFailed(tasks
+Utils.kt:21)
+	at org.jetbrains.kotlin.compilerRunner.Gradl
+eKotlinCompilerWork.run(GradleKotlinCompilerW
+ork.kt:119)
+	at org.jetbrains.kotlin.compilerRunner.Gradl
+eCompilerRunnerWithWorkers$GradleKotlinCompil
+erWorkAction.execute(GradleCompilerRunnerWith
+Workers.kt:76)
+	at org.gradle.workers.internal.DefaultWorker
+Server.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWo
+rkerFactory$1$1.create(NoIsolationWorkerFacto
+ry.java:66)
+	at org.gradle.workers.internal.NoIsolationWo
+rkerFactory$1$1.create(NoIsolationWorkerFacto
+ry.java:62)
+	at org.gradle.internal.classloader.ClassLoad
+erUtils.executeInClassloader(ClassLoaderUtils
+.java:100)
+	at org.gradle.workers.internal.NoIsolationWo
+rkerFactory$1.lambda$execute$0(NoIsolationWor
+kerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorke
+r$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorke
+r$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+9)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$CallableBuildOperationWorke
+r.execute(DefaultBuildOperationRunner.java:20
+4)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:66)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner$2.execute(DefaultBuildOpera
+tionRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:166)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.execute(DefaultBuildOperati
+onRunner.java:59)
+	at org.gradle.internal.operations.DefaultBui
+ldOperationRunner.call(DefaultBuildOperationR
+unner.java:53)
+	at org.gradle.workers.internal.AbstractWorke
+r.executeWrappedInBuildOperation(AbstractWork
+er.java:41)
+	at org.gradle.workers.internal.NoIsolationWo
+rkerFactory$1.execute(NoIsolationWorkerFactor
+y.java:59)
+	at org.gradle.workers.internal.DefaultWorker
+Executor.lambda$submitWork$0(DefaultWorkerExe
+cutor.java:174)
+	at org.gradle.internal.work.DefaultCondition
+alExecutionQueue$ExecutionRunner.runExecution
+(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultCondition
+alExecutionQueue$ExecutionRunner.access$700(D
+efaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultCondition
+alExecutionQueue$ExecutionRunner$1.run(Defaul
+tConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Fa
+ctories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLea
+seService.withLocks(DefaultWorkerLeaseService
+.java:264)
+	at org.gradle.internal.work.DefaultWorkerLea
+seService.runAsWorkerThread(DefaultWorkerLeas
+eService.java:128)
+	at org.gradle.internal.work.DefaultWorkerLea
+seService.runAsWorkerThread(DefaultWorkerLeas
+eService.java:133)
+	at org.gradle.internal.work.DefaultCondition
+alExecutionQueue$ExecutionRunner.runBatch(Def
+aultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultCondition
+alExecutionQueue$ExecutionRunner.run(DefaultC
+onditionalExecutionQueue.java:126)
+	... 2 more
+
+
+BUILD FAILED in 10s
